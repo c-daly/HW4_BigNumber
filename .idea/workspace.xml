@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079c0f9a-806b-4453-b8ed-5ee5e2dfc769" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW4_BigNumber.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bignumber/BigNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bignumber/BigNumberImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedList/LinkedListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedList/interfaces/ILinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedList/interfaces/ILinkedListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/bignumber/BigNumberImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/linkedList/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bignumber/BigNumberImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bignumber/BigNumberImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bignumber/BigNumberImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bignumber/BigNumberImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -69,7 +56,7 @@
       <recent name="linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BigNumberImplTest.testCopyConstructor">
+  <component name="RunManager" selected="JUnit.BigNumberImplTest.getDigitAt">
     <configuration name="All in HW4_BigNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW4_BigNumber" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,7 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigNumberImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BigNumberImplTest.getDigitAt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW4_BigNumber" />
       <extension name="coverage">
         <pattern>
@@ -88,7 +75,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="bignumber" />
       <option name="MAIN_CLASS_NAME" value="bignumber.BigNumberImplTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="getDigitAt" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BigNumberImplTest.testCopyConstructor" />
-        <item itemvalue="JUnit.BigNumberImplTest.testCopyConsctor" />
+        <item itemvalue="JUnit.BigNumberImplTest.getDigitAt" />
         <item itemvalue="JUnit.All in HW4_BigNumber" />
         <item itemvalue="JUnit.BigNumberImplTest.length" />
-        <item itemvalue="JUnit.BigNumberImplTest" />
+        <item itemvalue="JUnit.BigNumberImplTest.testCopyConstructor" />
+        <item itemvalue="JUnit.BigNumberImplTest.testCopyConsctor" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +149,7 @@
       <updated>1667241360325</updated>
       <workItem from="1667241361532" duration="20968000" />
       <workItem from="1667396765122" duration="17155000" />
+      <workItem from="1667422962462" duration="5523000" />
     </task>
     <servers />
   </component>
@@ -187,16 +176,30 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/bignumber/BigNumberImpl.java</url>
-          <line>118</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/linkedList/LinkedListIterator.java</url>
           <line>23</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/bignumber/BigNumberImplTest.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/bignumber/BigNumberImplTest.java</url>
+          <line>20</line>
+          <properties class="bignumber.BigNumberImplTest" method="testCopyConstructor">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="num[0]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

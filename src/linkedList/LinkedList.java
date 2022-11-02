@@ -23,11 +23,12 @@ public class LinkedList<T extends Comparable<T>> implements ILinkedList<T> {
 
         // dunno why I have nodes that should be null
         // except they have a next or prev field initialized
-        while(cp.next != null && cp.next.value != null) {
-           counter +=1;
+        while (cp.next != null && cp.next.value != null) {
+            cp = cp.next;
+            counter += 1;
         }
         return counter + 1;
-   }
+    }
 
     public void add(T val) {
        if (head == null) {

@@ -15,15 +15,19 @@ public class BigNumberImpl implements BigNumber {
 
     public BigNumberImpl(String number) {
         this.digits = new LinkedList<Integer>();
-        for (int x = 0; x < number.length(); x++) {
-            int num = Integer.parseInt(number);
+
+        int index = 0;
+        for(int x=0;x<number.length();x++) {
+            int i = Character.getNumericValue(number.charAt(x));
             shiftLeft(1);
-            addDigit(num);
+            addDigit(i);
         }
+
     }
 
     public BigNumberImpl(BigNumber number) {
         // hack
+        this.digits = new LinkedList<Integer>();
         var it = ((BigNumberImpl) number).getIterator();
 
         while(it.hasNext()) {
@@ -56,8 +60,8 @@ public class BigNumberImpl implements BigNumber {
     public void addDigit(int digit) {
         ILinkedListIterator<Integer> it = digits.iterator();
 
-        //int tempTotal = digit + getDigitAt(digits.length() - 1);
-        int tempTotal = digit + getDigitAt(0);
+        int tempTotal = digit + getDigitAt(digits.length() - 1);
+        //int tempTotal = digit + getDigitAt(0);
 
         if (tempTotal > 9) {
             it.set(0);
@@ -79,7 +83,7 @@ public class BigNumberImpl implements BigNumber {
 
     @Override
     public int getDigitAt(int position) {
-        return digits.get(position);
+        return digits.get(digits.length() - 1);
     }
 
     @Override
@@ -119,6 +123,7 @@ public class BigNumberImpl implements BigNumber {
         while(it.hasNext()) {
            sb.append(it.next().toString());
         }
-       return sb.toString();
+       //return sb.reverse().toString();
+        return sb.toString();
     }
 }
